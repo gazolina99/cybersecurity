@@ -1,0 +1,18 @@
+# Phishing Incident Response Playbook
+
+
+## 1. Triage
+- Identify sender and recipient
+- Review email headers
+- Check links and attachments
+
+
+## 2. Containment
+- Block sender domain
+- Remove email from other inboxes
+- Reset credentials if clicked
+
+
+## 3. Lessons Learned
+- Update detections
+- Provide user awareness feedback
