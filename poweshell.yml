@@ -1,0 +1,12 @@
+title: Suspicious PowerShell Execution
+description: Detects encoded or obfuscated PowerShell commands
+logsource:
+product: windows
+service: powershell
+detection:
+selection:
+CommandLine|contains:
+- "-enc"
+- "FromBase64String"
+condition: selection
+level: medium
